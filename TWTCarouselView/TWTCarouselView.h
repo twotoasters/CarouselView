@@ -12,8 +12,8 @@
 
 @protocol TWTCarouselViewDelegate <NSObject>
 
-- (NSUInteger)numberOfViewsInCarouselView:(TWTCarouselView *)carouselView;
-- (CGSize)sizeOfContentInCarouselView:(TWTCarouselView *)carouselView; // currently only supports one size
+- (NSUInteger)numberOfContentViewsInCarouselView:(TWTCarouselView *)carouselView;
+- (CGSize)sizeOfContentViewsInCarouselView:(TWTCarouselView *)carouselView; // currently only supports one size
 - (UIView *)carouselView:(TWTCarouselView *)carouselView configureView:(UIView *)view atIndex:(NSUInteger)index;
 
 @end

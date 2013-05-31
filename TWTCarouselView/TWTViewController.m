@@ -25,72 +25,54 @@
     carouselView.backgroundColor = [UIColor darkGrayColor];
     [self.view addSubview:carouselView];
 
-
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 #pragma mark - TWTCarouselScrollViewDelegate
 
-- (NSUInteger)numberOfViewsInCarouselView:(TWTCarouselView *)carouselView
+- (NSUInteger)numberOfContentViewsInCarouselView:(TWTCarouselView *)carouselView
 {
-    return 3;
+    return 2;
 }
 
-- (CGSize)sizeOfContentInCarouselView:(TWTCarouselView *)carouselView
+- (CGSize)sizeOfContentViewsInCarouselView:(TWTCarouselView *)carouselView
 {
     return carouselView.bounds.size;
 }
 
 - (UIView *)carouselView:(TWTCarouselView *)carouselView configureView:(UIView *)view atIndex:(NSUInteger)index
 {
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectZero];
+    [label setFont:[UIFont systemFontOfSize:42.0f]];
+    [label setTextColor:[UIColor whiteColor]];
+    label.backgroundColor = [UIColor blackColor];
+
     switch (index) {
         case 0:
         {
             view.backgroundColor = [UIColor redColor];
-            UILabel *label = [[UILabel alloc] initWithFrame:CGRectZero];
             [label setText:@"1"];
-            [label setFont:[UIFont systemFontOfSize:42.0f]];
-            [label sizeToFit];
-            [label setTextColor:[UIColor whiteColor]];
-            label.backgroundColor = [UIColor blackColor];
-            label.center = (CGPoint){ CGRectGetMidX(view.bounds), CGRectGetMidY(view.bounds) };
-            [view addSubview:label];
         }
             break;
         case 1:
         {
             view.backgroundColor = [UIColor blueColor];
-            UILabel *label = [[UILabel alloc] initWithFrame:CGRectZero];
             [label setText:@"2"];
-            [label setFont:[UIFont systemFontOfSize:42.0f]];
-            [label sizeToFit];
-            [label setTextColor:[UIColor whiteColor]];
-            label.backgroundColor = [UIColor blackColor];
-            label.center = (CGPoint){ CGRectGetMidX(view.bounds), CGRectGetMidY(view.bounds) };
-            [view addSubview:label];
         }
             break;
         case 2:
         {
             view.backgroundColor = [UIColor greenColor];
-            UILabel *label = [[UILabel alloc] initWithFrame:CGRectZero];
             [label setText:@"3"];
-            [label setFont:[UIFont systemFontOfSize:42.0f]];
-            [label sizeToFit];
-            [label setTextColor:[UIColor whiteColor]];
-            label.backgroundColor = [UIColor blackColor];
-            label.center = (CGPoint){ CGRectGetMidX(view.bounds), CGRectGetMidY(view.bounds) };
-            [view addSubview:label];
         }
             break;
         default:
             break;
     }
+
+    [label sizeToFit];
+    label.center = (CGPoint){ CGRectGetMidX(view.bounds), CGRectGetMidY(view.bounds) };
+    [view addSubview:label];
+
     return view;
 }
 

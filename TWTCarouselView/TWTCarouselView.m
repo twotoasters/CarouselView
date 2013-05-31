@@ -50,8 +50,8 @@ static NSInteger const kCenterPanelIndex = 1;
 
 - (void)reloadContentViews
 {
-    NSUInteger numberOfViews = [self.carouselDelegate numberOfViewsInCarouselView:self];
-    CGSize viewSize = [self.carouselDelegate sizeOfContentInCarouselView:self];
+    NSUInteger numberOfViews = [self.carouselDelegate numberOfContentViewsInCarouselView:self];
+    CGSize viewSize = [self.carouselDelegate sizeOfContentViewsInCarouselView:self];
 
     // configure all the views
     NSMutableArray *views = [NSMutableArray array];
@@ -78,16 +78,18 @@ static NSInteger const kCenterPanelIndex = 1;
         [self.carouselPanelViews addObject:carouselPanel];
         [self addSubview:carouselPanel];
 
-        // calculate the "wrapped" content index
-        NSInteger offsetIndex = ((NSInteger)self.currentIndex + (i - 1));
-        NSInteger contentViewIndex = offsetIndex % (NSInteger)self.carouselContentViews.count;
-        // if the modulous of the index is negative, add the count to the result
-        if (contentViewIndex < 0) {
-            contentViewIndex += self.carouselContentViews.count;
+        if (self.carouselContentViews.count > 0) {
+            // calculate the "wrapped" content index
+            NSInteger offsetIndex = ((NSInteger)self.currentIndex + (i - 1));
+            NSInteger contentViewIndex = offsetIndex % (NSInteger)self.carouselContentViews.count;
+            // if the modulous of the index is negative, add the count to the result
+            if (contentViewIndex < 0) {
+                contentViewIndex += self.carouselContentViews.count;
+            }
+            UIView *contentView = self.carouselContentViews[contentViewIndex];
+            contentView.center = (CGPoint){ floorf(CGRectGetMidX(carouselPanel.bounds)), floorf(CGRectGetMidY(carouselPanel.bounds)) };
+            [carouselPanel addSubview:contentView];
         }
-        UIView *contentView = self.carouselContentViews[contentViewIndex];
-        contentView.center = (CGPoint){ CGRectGetMidX(carouselPanel.bounds), CGRectGetMidY(carouselPanel.bounds) };
-        [carouselPanel addSubview:contentView];
     }
 
     self.horizontalOffsetForCenterPanel = CGRectGetMinX([(UIView *)self.carouselPanelViews[kCenterPanelIndex] frame]);
