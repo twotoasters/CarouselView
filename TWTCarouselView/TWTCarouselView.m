@@ -55,7 +55,7 @@ static NSInteger const kCenterPanelIndex = 1;
 
     // configure all the views
     NSMutableArray *views = [NSMutableArray array];
-    for (int i = 0; i < numberOfViews; i++) {
+    for (int i = 0; i < (int)numberOfViews; i++) {
         UIView *contentView = [[UIView alloc] initWithFrame:(CGRect){ CGPointZero, viewSize }];
         contentView = [self.carouselDelegate carouselView:self configureView:contentView atIndex:i];
         [views addObject:contentView];
@@ -71,6 +71,9 @@ static NSInteger const kCenterPanelIndex = 1;
 // update carousel panels such that self.currentIndex is the center panel
 - (void)updateCarouselPanels
 {
+    for(UIView *panel in self.carouselPanelViews) {
+        [panel removeFromSuperview];
+    }
     [self.carouselPanelViews removeAllObjects];
 
     for (int i = 0; i < kNumPanels; i++) {
