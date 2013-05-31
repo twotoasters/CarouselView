@@ -7,40 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1384757F1758E95B005DFDDA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 138475701758E95B005DFDDA /* Default-568h@2x.png */; };
+		138475801758E95B005DFDDA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 138475711758E95B005DFDDA /* Default.png */; };
+		138475811758E95B005DFDDA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 138475721758E95B005DFDDA /* Default@2x.png */; };
+		138475821758E95B005DFDDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 138475731758E95B005DFDDA /* InfoPlist.strings */; };
+		138475831758E95B005DFDDA /* TWTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 138475751758E95B005DFDDA /* TWTViewController.xib */; };
+		138475841758E95B005DFDDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 138475771758E95B005DFDDA /* main.m */; };
+		138475851758E95B005DFDDA /* TWTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 138475791758E95B005DFDDA /* TWTAppDelegate.m */; };
+		138475861758E95B005DFDDA /* TWTCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1384757B1758E95B005DFDDA /* TWTCarouselView.m */; };
+		138475871758E95B005DFDDA /* TWTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1384757D1758E95B005DFDDA /* TWTViewController.m */; };
 		13B3B7681757D61100A4F1CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B3B7671757D61100A4F1CD /* UIKit.framework */; };
 		13B3B76A1757D61100A4F1CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B3B7691757D61100A4F1CD /* Foundation.framework */; };
 		13B3B76C1757D61100A4F1CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B3B76B1757D61100A4F1CD /* CoreGraphics.framework */; };
-		13B3B79E1758603500A4F1CD /* CarouselScrollView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13B3B78E1758603500A4F1CD /* CarouselScrollView-Info.plist */; };
-		13B3B79F1758603500A4F1CD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13B3B7901758603500A4F1CD /* Default-568h@2x.png */; };
-		13B3B7A01758603500A4F1CD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 13B3B7911758603500A4F1CD /* Default.png */; };
-		13B3B7A11758603500A4F1CD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13B3B7921758603500A4F1CD /* Default@2x.png */; };
-		13B3B7A21758603500A4F1CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13B3B7931758603500A4F1CD /* InfoPlist.strings */; };
-		13B3B7A31758603500A4F1CD /* TWTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B3B7951758603500A4F1CD /* TWTViewController.xib */; };
-		13B3B7A41758603500A4F1CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B3B7971758603500A4F1CD /* main.m */; };
-		13B3B7A51758603500A4F1CD /* TWTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B3B7991758603500A4F1CD /* TWTAppDelegate.m */; };
-		13B3B7A61758603500A4F1CD /* TWTCarouselScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B3B79B1758603500A4F1CD /* TWTCarouselScrollView.m */; };
-		13B3B7A71758603500A4F1CD /* TWTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B3B79D1758603500A4F1CD /* TWTViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		13B3B7641757D61100A4F1CD /* CarouselScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarouselScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1384756E1758E95B005DFDDA /* TWTCarouselView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TWTCarouselView-Info.plist"; sourceTree = "<group>"; };
+		1384756F1758E95B005DFDDA /* TWTCarouselView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TWTCarouselView-Prefix.pch"; sourceTree = "<group>"; };
+		138475701758E95B005DFDDA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		138475711758E95B005DFDDA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		138475721758E95B005DFDDA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		138475741758E95B005DFDDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		138475761758E95B005DFDDA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TWTViewController.xib; sourceTree = "<group>"; };
+		138475771758E95B005DFDDA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		138475781758E95B005DFDDA /* TWTAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTAppDelegate.h; sourceTree = "<group>"; };
+		138475791758E95B005DFDDA /* TWTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTAppDelegate.m; sourceTree = "<group>"; };
+		1384757A1758E95B005DFDDA /* TWTCarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTCarouselView.h; sourceTree = "<group>"; };
+		1384757B1758E95B005DFDDA /* TWTCarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTCarouselView.m; sourceTree = "<group>"; };
+		1384757C1758E95B005DFDDA /* TWTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTViewController.h; sourceTree = "<group>"; };
+		1384757D1758E95B005DFDDA /* TWTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTViewController.m; sourceTree = "<group>"; };
+		13B3B7641757D61100A4F1CD /* TWTCarouselView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWTCarouselView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B3B7671757D61100A4F1CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		13B3B7691757D61100A4F1CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		13B3B76B1757D61100A4F1CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		13B3B78E1758603500A4F1CD /* CarouselScrollView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CarouselScrollView-Info.plist"; sourceTree = "<group>"; };
-		13B3B78F1758603500A4F1CD /* CarouselScrollView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CarouselScrollView-Prefix.pch"; sourceTree = "<group>"; };
-		13B3B7901758603500A4F1CD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		13B3B7911758603500A4F1CD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		13B3B7921758603500A4F1CD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		13B3B7941758603500A4F1CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		13B3B7961758603500A4F1CD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TWTViewController.xib; sourceTree = "<group>"; };
-		13B3B7971758603500A4F1CD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		13B3B7981758603500A4F1CD /* TWTAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTAppDelegate.h; sourceTree = "<group>"; };
-		13B3B7991758603500A4F1CD /* TWTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTAppDelegate.m; sourceTree = "<group>"; };
-		13B3B79A1758603500A4F1CD /* TWTCarouselScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTCarouselScrollView.h; sourceTree = "<group>"; };
-		13B3B79B1758603500A4F1CD /* TWTCarouselScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTCarouselScrollView.m; sourceTree = "<group>"; };
-		13B3B79C1758603500A4F1CD /* TWTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTViewController.h; sourceTree = "<group>"; };
-		13B3B79D1758603500A4F1CD /* TWTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,10 +56,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1384756D1758E95B005DFDDA /* TWTCarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				1384756E1758E95B005DFDDA /* TWTCarouselView-Info.plist */,
+				1384756F1758E95B005DFDDA /* TWTCarouselView-Prefix.pch */,
+				138475701758E95B005DFDDA /* Default-568h@2x.png */,
+				138475711758E95B005DFDDA /* Default.png */,
+				138475721758E95B005DFDDA /* Default@2x.png */,
+				138475731758E95B005DFDDA /* InfoPlist.strings */,
+				138475751758E95B005DFDDA /* TWTViewController.xib */,
+				138475771758E95B005DFDDA /* main.m */,
+				138475781758E95B005DFDDA /* TWTAppDelegate.h */,
+				138475791758E95B005DFDDA /* TWTAppDelegate.m */,
+				1384757A1758E95B005DFDDA /* TWTCarouselView.h */,
+				1384757B1758E95B005DFDDA /* TWTCarouselView.m */,
+				1384757C1758E95B005DFDDA /* TWTViewController.h */,
+				1384757D1758E95B005DFDDA /* TWTViewController.m */,
+			);
+			path = TWTCarouselView;
+			sourceTree = "<group>";
+		};
 		13B3B75B1757D61100A4F1CD = {
 			isa = PBXGroup;
 			children = (
-				13B3B78D1758603500A4F1CD /* CarouselScrollView */,
+				1384756D1758E95B005DFDDA /* TWTCarouselView */,
 				13B3B7661757D61100A4F1CD /* Frameworks */,
 				13B3B7651757D61100A4F1CD /* Products */,
 			);
@@ -69,7 +89,7 @@
 		13B3B7651757D61100A4F1CD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B3B7641757D61100A4F1CD /* CarouselScrollView.app */,
+				13B3B7641757D61100A4F1CD /* TWTCarouselView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,33 +104,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		13B3B78D1758603500A4F1CD /* CarouselScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				13B3B78E1758603500A4F1CD /* CarouselScrollView-Info.plist */,
-				13B3B78F1758603500A4F1CD /* CarouselScrollView-Prefix.pch */,
-				13B3B7901758603500A4F1CD /* Default-568h@2x.png */,
-				13B3B7911758603500A4F1CD /* Default.png */,
-				13B3B7921758603500A4F1CD /* Default@2x.png */,
-				13B3B7931758603500A4F1CD /* InfoPlist.strings */,
-				13B3B7951758603500A4F1CD /* TWTViewController.xib */,
-				13B3B7971758603500A4F1CD /* main.m */,
-				13B3B7981758603500A4F1CD /* TWTAppDelegate.h */,
-				13B3B7991758603500A4F1CD /* TWTAppDelegate.m */,
-				13B3B79A1758603500A4F1CD /* TWTCarouselScrollView.h */,
-				13B3B79B1758603500A4F1CD /* TWTCarouselScrollView.m */,
-				13B3B79C1758603500A4F1CD /* TWTViewController.h */,
-				13B3B79D1758603500A4F1CD /* TWTViewController.m */,
-			);
-			path = CarouselScrollView;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		13B3B7631757D61100A4F1CD /* CarouselScrollView */ = {
+		13B3B7631757D61100A4F1CD /* TWTCarouselView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B3B7871757D61200A4F1CD /* Build configuration list for PBXNativeTarget "CarouselScrollView" */;
+			buildConfigurationList = 13B3B7871757D61200A4F1CD /* Build configuration list for PBXNativeTarget "TWTCarouselView" */;
 			buildPhases = (
 				13B3B7601757D61100A4F1CD /* Sources */,
 				13B3B7611757D61100A4F1CD /* Frameworks */,
@@ -120,9 +119,9 @@
 			);
 			dependencies = (
 			);
-			name = CarouselScrollView;
+			name = TWTCarouselView;
 			productName = CaroselScrollView;
-			productReference = 13B3B7641757D61100A4F1CD /* CarouselScrollView.app */;
+			productReference = 13B3B7641757D61100A4F1CD /* TWTCarouselView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -135,7 +134,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = TwoToasters;
 			};
-			buildConfigurationList = 13B3B75F1757D61100A4F1CD /* Build configuration list for PBXProject "CarouselScrollView" */;
+			buildConfigurationList = 13B3B75F1757D61100A4F1CD /* Build configuration list for PBXProject "TWTCarouselView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -147,7 +146,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B3B7631757D61100A4F1CD /* CarouselScrollView */,
+				13B3B7631757D61100A4F1CD /* TWTCarouselView */,
 			);
 		};
 /* End PBXProject section */
@@ -157,12 +156,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B3B79E1758603500A4F1CD /* CarouselScrollView-Info.plist in Resources */,
-				13B3B79F1758603500A4F1CD /* Default-568h@2x.png in Resources */,
-				13B3B7A01758603500A4F1CD /* Default.png in Resources */,
-				13B3B7A11758603500A4F1CD /* Default@2x.png in Resources */,
-				13B3B7A21758603500A4F1CD /* InfoPlist.strings in Resources */,
-				13B3B7A31758603500A4F1CD /* TWTViewController.xib in Resources */,
+				1384757F1758E95B005DFDDA /* Default-568h@2x.png in Resources */,
+				138475801758E95B005DFDDA /* Default.png in Resources */,
+				138475811758E95B005DFDDA /* Default@2x.png in Resources */,
+				138475821758E95B005DFDDA /* InfoPlist.strings in Resources */,
+				138475831758E95B005DFDDA /* TWTViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,28 +171,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B3B7A41758603500A4F1CD /* main.m in Sources */,
-				13B3B7A51758603500A4F1CD /* TWTAppDelegate.m in Sources */,
-				13B3B7A61758603500A4F1CD /* TWTCarouselScrollView.m in Sources */,
-				13B3B7A71758603500A4F1CD /* TWTViewController.m in Sources */,
+				138475841758E95B005DFDDA /* main.m in Sources */,
+				138475851758E95B005DFDDA /* TWTAppDelegate.m in Sources */,
+				138475861758E95B005DFDDA /* TWTCarouselView.m in Sources */,
+				138475871758E95B005DFDDA /* TWTViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		13B3B7931758603500A4F1CD /* InfoPlist.strings */ = {
+		138475731758E95B005DFDDA /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				13B3B7941758603500A4F1CD /* en */,
+				138475741758E95B005DFDDA /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		13B3B7951758603500A4F1CD /* TWTViewController.xib */ = {
+		138475751758E95B005DFDDA /* TWTViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				13B3B7961758603500A4F1CD /* en */,
+				138475761758E95B005DFDDA /* en */,
 			);
 			name = TWTViewController.xib;
 			sourceTree = "<group>";
@@ -268,8 +266,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CarouselScrollView/CarouselScrollView-Prefix.pch";
-				INFOPLIST_FILE = "CarouselScrollView/CarouselScrollView-Info.plist";
+				GCC_PREFIX_HEADER = "TWTCarouselView/TWTCarouselView-Prefix.pch";
+				INFOPLIST_FILE = "TWTCarouselView/TWTCarouselView-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -279,8 +277,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CarouselScrollView/CarouselScrollView-Prefix.pch";
-				INFOPLIST_FILE = "CarouselScrollView/CarouselScrollView-Info.plist";
+				GCC_PREFIX_HEADER = "TWTCarouselView/TWTCarouselView-Prefix.pch";
+				INFOPLIST_FILE = "TWTCarouselView/TWTCarouselView-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -289,7 +287,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13B3B75F1757D61100A4F1CD /* Build configuration list for PBXProject "CarouselScrollView" */ = {
+		13B3B75F1757D61100A4F1CD /* Build configuration list for PBXProject "TWTCarouselView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B3B7851757D61200A4F1CD /* Debug */,
@@ -298,7 +296,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B3B7871757D61200A4F1CD /* Build configuration list for PBXNativeTarget "CarouselScrollView" */ = {
+		13B3B7871757D61200A4F1CD /* Build configuration list for PBXNativeTarget "TWTCarouselView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B3B7881757D61200A4F1CD /* Debug */,

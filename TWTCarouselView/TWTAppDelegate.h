@@ -1,6 +1,6 @@
 //
 //  TWTAppDelegate.h
-//  CaroselScrollView
+//  CarouselScrollView
 //
 //  Created by Duncan Lewis on 5/30/13.
 //  Copyright (c) 2013 TwoToasters. All rights reserved.

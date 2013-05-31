@@ -1,6 +1,6 @@
 //
 //  TWTViewController.m
-//  CaroselScrollView
+//  CarouselScrollView
 //
 //  Created by Duncan Lewis on 5/30/13.
 //  Copyright (c) 2013 TwoToasters. All rights reserved.
@@ -8,9 +8,9 @@
 
 #import "TWTViewController.h"
 
-#import "TWTCarouselScrollView.h"
+#import "TWTCarouselView.h"
 
-@interface TWTViewController () <TWTCarouselScrollViewDelegate>
+@interface TWTViewController () <TWTCarouselViewDelegate>
 
 @end
 
@@ -20,7 +20,7 @@
 {
     [super viewDidLoad];
 
-    TWTCarouselScrollView *carouselView = [[TWTCarouselScrollView alloc] initWithFrame:(CGRect){ CGPointZero, { 320.0f, 200.0f } }];
+    TWTCarouselView *carouselView = [[TWTCarouselView alloc] initWithFrame:(CGRect){ CGPointZero, { 320.0f, 200.0f } }];
     carouselView.carouselDelegate = self;
     carouselView.backgroundColor = [UIColor darkGrayColor];
     [self.view addSubview:carouselView];
@@ -36,17 +36,17 @@
 
 #pragma mark - TWTCarouselScrollViewDelegate
 
-- (NSUInteger)numberOfViewsInCarouselView:(TWTCarouselScrollView *)carouselView
+- (NSUInteger)numberOfViewsInCarouselView:(TWTCarouselView *)carouselView
 {
     return 3;
 }
 
-- (CGSize)sizeForViewInCarouselView:(TWTCarouselScrollView *)carouselView
+- (CGSize)sizeOfContentInCarouselView:(TWTCarouselView *)carouselView
 {
     return carouselView.bounds.size;
 }
 
-- (UIView *)carouselView:(TWTCarouselScrollView *)carouselView configureView:(UIView *)view atIndex:(NSUInteger)index
+- (UIView *)carouselView:(TWTCarouselView *)carouselView configureView:(UIView *)view atIndex:(NSUInteger)index
 {
     switch (index) {
         case 0:
